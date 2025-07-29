@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	height: 100%;
+	  background-image: url('img/fondo2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.servicios {
+display: flex;
+  flex-wrap: wrap;
+  gap: 300px;
+  padding: 40px;
+  margin-top: 50px
+}   
+
+.tarjeta {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  width: 410px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta img {
+  width: 40%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  margin: 30px 30px;
+}
+
+.nav-superior {
+  position: fixed;
+  top: 0;
+  left:5%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0); /* fondo semitransparente */
+  padding: 20px 0;
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+  z-index: 100;
+  font-family: 'Cinzel', serif;
+}
+
+.nav-superior a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-superior a:hover {
+  color: #d4a373; /* cambia color al pasar el mouse */
+}
+.logo {
+  position: absolute;
+  top: 60%;
+  left:-3%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  height: auto;
+}
+
+.tarjeta2 {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  width: 410px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.tarjeta2:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta2 img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+
