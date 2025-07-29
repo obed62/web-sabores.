@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url('../img/fondo/fondo8.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img {
+  position: absolute;
+  top: 60%;
+  left:19%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  height: auto;
+}
+
+
+
+
+
+.contenido-centrado button {
+	position: absolute;
+	top: 60%;
+	left: 560px;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contenido-centrado button:hover {
+  background-color: #d4a373; /* o algún color que combine con tu paleta */
+}
+
+h1 {
+	padding-top:14%;
+	font-size:90px;
+	text-align: center;
+	color:#3D1E05;
+
+}
+
+h2{
+	position: absolute;
+	top: 50s%;
+	left: 28%;
+	font-size: 30px;
+	text-align: center;
+	color:#381F09;
+}
+.barra-inferior {
+  position: fixed;          /* Fija en la pantalla */
+  bottom: 0;                /* En la parte inferior */
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7);  /* Fondo oscuro translúcido */
+  color: white;
+  text-align: center;
+  font-family: 'Playfair Display', serif;  /* O la que uses */
+  z-index: 10;
+}
+.nav-superior {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0); /* fondo semitransparente */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  z-index: 100;
+  font-family: 'Cinzel', serif;
+}
+
+.nav-superior a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-superior a:hover {
+  color: #d4a373; /* cambia color al pasar el mouse */
+}
+
+
+

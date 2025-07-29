@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sabores de mi tierra</title>
+	<link rel="icon" type="favicon.png" href="img/extra/logo sabores de mi tierra2.png">
+	<link rel="stylesheet" type="text/css" href="style/estilo1.css">
+</head>
+<body>
+	<img class="logo" src="img/extra/logo sabores de mi tierra1.png" width="360px">
+
+<div  id="botones-verticales" class="botones-verticales">
+  <a href="#registro" class="btn">Crear una cuenta</a>
+  <a href="#contacto" class="btn secundario">Contacto</a>
+  <a href="#login" class="btn terciario">Ingresar</a>
+</div>
+
+<div id="formulario-registro" class="oculto">
+  <input type="text" placeholder="Crea un nombre de usuario" class="input-estilo" id="usuario">
+  <input type="password" placeholder="Crea una contraseña" class="input-estilo" id="contrasena">
+  <button class="btn guardar"   onclick="guardarUsuario()" >ingresar</button>
+  <button type="button" onclick="mostrarContrasena()" id="toggle-icono">
+  	<img src="img/extra/ojo2.png" alt="ojo" width="20px" >
+  </button>
+</div>
+
+<script src="javascript/function.js"></script>
+
+</body>
+</html>
